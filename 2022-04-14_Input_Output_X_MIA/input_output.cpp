@@ -12,6 +12,18 @@ int main()
     tampilkan umur
     tampilkan tahun lahir
     */ 
+   string nama, namaDepan;
+   int umur, tahunLahir;
+
+   cout<<"Masukkan Nama Depan= "; cin>>namaDepan;
+   cout<<"Masukkan Nama Lengkap = "; getline (cin, nama);//getline mengambil string dengan spasi
+   cout<<"Masukkan Umur = ";cin>>umur;
+   cout<<"Masukkan Tahun Lahir = ";cin>>tahunLahir;
+
+   cout<<"Nama Depan"<<namaDepan<<endl;
+   cout<<"Nama Lengkap = "<<nama<<endl;
+   cout<<"Umur = "<<umur<<endl;
+   cout<<"Tahun Lahir = "<<tahunLahir<<endl;
    
 
       
